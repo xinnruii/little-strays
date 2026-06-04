@@ -8,29 +8,35 @@ const featuredProducts = products.filter((product) => product.featured);
 export default function Home() {
   return (
     <>
-      <section className="mx-auto grid max-w-[1720px] gap-8 px-4 py-10 sm:px-6 lg:min-h-[calc(100vh-8rem)] lg:grid-cols-[0.92fr_1.08fr] lg:items-center lg:gap-10 lg:px-6 lg:py-10 xl:px-8">
-        <div className="max-w-xl lg:max-w-[640px]">
-          <h1 className="text-4xl font-semibold leading-tight sm:text-5xl lg:text-6xl">
-            Beautiful things for beloved little strays.
-          </h1>
-          <p className="mt-5 max-w-xl text-base leading-7 text-muted sm:mt-7 sm:text-lg sm:leading-8">
-            Little Strays gathers tactile, home-minded goods for dogs and cats:
-            walk sets, nap beds, toys, bowls, and the small practical pieces
-            that make everyday care feel tender.
-          </p>
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
-            <ButtonLink href="/products">Shop the edit</ButtonLink>
-            <ButtonLink href="/about" variant="light">
-              Our story
-            </ButtonLink>
-          </div>
-        </div>
-        <div className="relative min-h-[320px] overflow-hidden rounded-sm bg-oat shadow-soft sm:min-h-[460px] lg:min-h-[740px]">
+      <section className="relative h-[clamp(520px,132vw,700px)] overflow-hidden bg-[#f8f2ec] lg:h-[calc(100vh-5rem)]">
+        <div className="absolute inset-0">
           <img
-            src="/images/homepage-picture.jpg"
+            src="/images/homepage_picture2.png"
             alt="A dog and cat resting together at home"
-            className="absolute inset-0 h-full w-full object-cover"
+            width="1822"
+            height="863"
+            className="absolute left-1/2 top-0 h-auto w-[105%] max-w-none -translate-x-[78%] sm:-top-2 sm:w-[96%] sm:-translate-x-[78%] lg:inset-0 lg:h-full lg:w-full lg:max-w-full lg:translate-x-0 lg:object-cover lg:object-center"
           />
+        </div>
+        <div className="relative z-10 flex h-full items-start px-4 pb-8 pt-64 sm:px-8 sm:pb-10 sm:pt-[20rem] md:pt-[24rem] lg:items-center lg:px-32 lg:py-10">
+          <div className="max-w-xl lg:max-w-[760px]">
+            <h1 className="whitespace-nowrap text-[clamp(1.05rem,4.4vw,2.75rem)] font-semibold leading-tight text-ink">
+              Because loving them well is the whole point.
+            </h1>
+            <p className="mt-4 max-w-xl text-justify text-sm leading-6 text-muted sm:mt-6 sm:text-base sm:leading-7 lg:mt-7 lg:max-w-[760px] lg:text-lg lg:leading-8">
+              Little Strays is a curated shop for dogs and cats, and the people
+              who think about them a little too much. We pick things the way you
+              would if you had all the time in the world — for how it feels
+              against fur, for what’s actually inside, and for the quiet rhythm
+              of everyday life. Style just happens to come with it.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+              <ButtonLink href="/products">Shop the edit</ButtonLink>
+              <ButtonLink href="/about" variant="light">
+                Our story
+              </ButtonLink>
+            </div>
+          </div>
         </div>
       </section>
 

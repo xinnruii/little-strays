@@ -17,32 +17,40 @@ export default function AboutPage() {
         </div>
         <div className="grid content-start gap-6 px-4 pt-8 sm:px-6 lg:max-w-2xl lg:gap-8 lg:px-0 lg:pr-8 lg:pt-20">
           <div>
-            <h1 className="text-4xl font-semibold leading-tight sm:text-5xl sm:leading-none">
-              Our bosses have paws.
+            <h1 className="text-[clamp(1.1rem,2.2vw,1.9rem)] font-semibold leading-tight">
+              <span className="block whitespace-nowrap">
+                Animal-owned first, women-owned second.
+              </span>
+              <span className="block whitespace-nowrap">
+                We simply handle operations on their behalf.
+              </span>
             </h1>
           </div>
           <div className="grid gap-5 text-base leading-7 text-muted sm:gap-6 sm:leading-8">
             <p>
-              Little Strays was inspired by four adopted little ones: May,
-              Lucky, Joe, and Pika. They are our CEO, CTO, CFO, and CPO,
-              although they mostly work in naps, snack inspections, quality
-              control, and emotional support.
+              Little Strays began with four rescues — May, Lucky, Joe, and Pika
+              — who slowly changed the way we moved through everyday life. We
+              started noticing the small things: softer fabrics, gentler
+              ingredients, pieces that felt safe enough to live alongside the
+              animals we love most.
             </p>
             <p>
-              The humans? We are just the employees.
+              Over time, choosing carefully became second nature.
             </p>
             <p>
-              Our job is simple: listen to what they need, notice what makes
-              their days softer, and find beautiful, practical goods that make
-              life with pets feel easier, warmer, and more joyful.
+              This shop is a collection of things we genuinely use, trust, and
+              return to again and again. Many have already been tested by our
+              in-house panel — sat on, carried around, stared at suspiciously,
+              or claimed as personal property.
             </p>
             <p>
-              Everything we carry is chosen with our four tiny bosses in mind.
-              Many pieces are inspected, tested, sat on, sniffed, chased, or
-              approved by May, Lucky, Joe, and Pika themselves.
+              The ones they keep coming back to end up here.
             </p>
             <p>
-              If they love it, it earns a place at Little Strays.
+              Here’s to the small things that make a life!
+            </p>
+            <p>
+              Bonne trouvaille.
             </p>
           </div>
         </div>

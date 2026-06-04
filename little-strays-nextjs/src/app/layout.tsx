@@ -104,8 +104,7 @@ export default function RootLayout({
                 <div>
                   <p className="text-3xl font-semibold">Little Strays</p>
                   <p className="mt-4 max-w-sm text-sm leading-6 text-muted">
-                    Quietly beautiful goods for pets who make a home feel awake,
-                    warm, and a little more lived in.
+                    Pspsps. Hey you. Yes, you. Come see what we found.
                   </p>
                 </div>
                 <div>
