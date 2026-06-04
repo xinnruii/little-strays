@@ -15,10 +15,10 @@ export default function Home() {
             alt="A dog and cat resting together at home"
             width="1822"
             height="863"
-            className="absolute left-1/2 top-0 h-auto w-[105%] max-w-none -translate-x-[78%] sm:-top-2 sm:w-[96%] sm:-translate-x-[78%] lg:inset-0 lg:h-full lg:w-full lg:max-w-full lg:translate-x-0 lg:object-cover lg:object-center"
+            className="absolute left-1/2 top-8 h-auto w-[92%] max-w-none -translate-x-[78%] sm:top-6 sm:w-[86%] sm:-translate-x-[78%] md:top-8 md:w-[82%] lg:left-auto lg:right-0 lg:top-10 lg:w-[88%] lg:translate-x-0 xl:top-12 xl:w-[82%] 2xl:inset-0 2xl:h-full 2xl:w-full 2xl:max-w-full 2xl:object-cover 2xl:object-center"
           />
         </div>
-        <div className="relative z-10 flex min-h-[clamp(620px,150vw,760px)] items-start px-4 pb-8 pt-64 sm:px-8 sm:pb-10 sm:pt-[20rem] md:pt-[24rem] lg:h-full lg:min-h-0 lg:items-center lg:px-32 lg:py-10">
+        <div className="relative z-10 flex min-h-[clamp(620px,150vw,760px)] items-start px-4 pb-8 pt-64 sm:px-8 sm:pb-10 sm:pt-[20rem] md:pt-[24rem] lg:h-full lg:min-h-0 lg:items-center lg:px-12 lg:py-10 xl:px-16 2xl:px-32">
           <div className="max-w-xl lg:max-w-[760px]">
             <h1 className="whitespace-nowrap text-[clamp(1.05rem,4.4vw,2.75rem)] font-semibold leading-tight text-ink">
               Because loving them well is the whole point.
