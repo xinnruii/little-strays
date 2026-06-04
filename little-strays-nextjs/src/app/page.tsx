@@ -8,7 +8,7 @@ const featuredProducts = products.filter((product) => product.featured);
 export default function Home() {
   return (
     <>
-      <section className="relative h-[clamp(520px,132vw,700px)] overflow-hidden bg-[#f8f2ec] lg:h-[calc(100vh-5rem)]">
+      <section className="relative min-h-[clamp(620px,150vw,760px)] overflow-hidden bg-[#f8f2ec] lg:h-[calc(100vh-5rem)] lg:min-h-0">
         <div className="absolute inset-0">
           <img
             src="/images/homepage_picture2.png"
@@ -18,7 +18,7 @@ export default function Home() {
             className="absolute left-1/2 top-0 h-auto w-[105%] max-w-none -translate-x-[78%] sm:-top-2 sm:w-[96%] sm:-translate-x-[78%] lg:inset-0 lg:h-full lg:w-full lg:max-w-full lg:translate-x-0 lg:object-cover lg:object-center"
           />
         </div>
-        <div className="relative z-10 flex h-full items-start px-4 pb-8 pt-64 sm:px-8 sm:pb-10 sm:pt-[20rem] md:pt-[24rem] lg:items-center lg:px-32 lg:py-10">
+        <div className="relative z-10 flex min-h-[clamp(620px,150vw,760px)] items-start px-4 pb-8 pt-64 sm:px-8 sm:pb-10 sm:pt-[20rem] md:pt-[24rem] lg:h-full lg:min-h-0 lg:items-center lg:px-32 lg:py-10">
           <div className="max-w-xl lg:max-w-[760px]">
             <h1 className="whitespace-nowrap text-[clamp(1.05rem,4.4vw,2.75rem)] font-semibold leading-tight text-ink">
               Because loving them well is the whole point.
@@ -30,7 +30,7 @@ export default function Home() {
               against fur, for what’s actually inside, and for the quiet rhythm
               of everyday life. Style just happens to come with it.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <div className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
               <ButtonLink href="/products">Shop the edit</ButtonLink>
               <ButtonLink href="/about" variant="light">
                 Our story
