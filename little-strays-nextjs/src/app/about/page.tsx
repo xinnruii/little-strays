@@ -17,6 +17,7 @@ export default function AboutPage() {
         </div>
         <div className="grid content-start gap-6 px-4 pt-8 sm:px-6 lg:max-w-2xl lg:gap-8 lg:px-0 lg:pr-8 lg:pt-20">
           <div>
+            <p className="editorial-kicker">Our Story</p>
             <h1 className="text-[clamp(1.1rem,2.2vw,1.9rem)] font-semibold leading-tight">
               <span className="block whitespace-nowrap">
                 Animal-owned first, women-owned second.

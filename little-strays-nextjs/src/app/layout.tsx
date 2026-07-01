@@ -116,7 +116,13 @@ export default function RootLayout({
                       All products
                     </Link>
                     <Link href="/about" className="focus-ring rounded-sm hover:text-clay">
-                      About
+                      Our Story
+                    </Link>
+                    <Link
+                      href="/meet-the-team"
+                      className="focus-ring rounded-sm hover:text-clay"
+                    >
+                      Meet the Team
                     </Link>
                     <Link href="/contact" className="focus-ring rounded-sm hover:text-clay">
                       Contact

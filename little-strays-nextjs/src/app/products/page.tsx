@@ -31,7 +31,7 @@ export default async function ProductsPage({ searchParams }: ProductsPageProps) 
   return (
     <section className="mx-auto max-w-[1720px] px-4 py-10 sm:px-6 lg:px-6 lg:py-20 xl:px-8">
       {categoryProducts.length > 0 ? (
-        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
+        <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4 lg:gap-6">
           {categoryProducts.map((product) => (
             <ProductCard
               key={product.slug}
