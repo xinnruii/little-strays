@@ -46,8 +46,10 @@ export default function Home() {
             <h1 className="text-[clamp(1.55rem,6.8vw,2.75rem)] font-semibold leading-tight text-ink md:whitespace-nowrap lg:text-[clamp(1rem,4.4vw,2.75rem)]">
               Because loving them well is the whole point.
             </h1>
-            <p className="mx-auto mt-4 max-w-2xl text-sm leading-6 text-muted sm:mt-6 sm:text-base sm:leading-7 md:max-w-none md:whitespace-nowrap lg:mt-7 lg:text-lg lg:leading-8">
-              A curated shop for dogs, cats, and the people who love them a little too much.
+            <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-muted sm:mt-6 sm:text-lg sm:leading-8 md:max-w-none md:whitespace-nowrap lg:mt-7 lg:text-xl">
+              A curated shop for dogs, cats, and the{" "}
+              <br className="md:hidden" />
+              people who love them a little too much.
             </p>
             <div className="mt-6 flex flex-col items-center justify-center gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
               <ButtonLink href="/products">Shop the edit</ButtonLink>
